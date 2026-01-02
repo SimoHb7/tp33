@@ -1,5 +1,8 @@
 # TP 33 : Déploiement d'une application Spring Boot sur Kubernetes
 
+<img width="959" height="353" alt="image" src="https://github.com/user-attachments/assets/4f04bcb8-e980-4fd6-b2d2-28cd8aab3aa8" />
+<img width="959" height="290" alt="image" src="https://github.com/user-attachments/assets/dacec6ba-262f-4cc7-8454-28af53d16188" />
+
 ## Description
 Projet de démonstration pour déployer une application Spring Boot sur Kubernetes (Minikube).
 
