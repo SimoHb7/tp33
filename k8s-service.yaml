@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-k8s-service
+  namespace: lab-k8s
+  labels:
+    app: demo-k8s
+spec:
+  type: NodePort
+  selector:
+    app: demo-k8s
+  ports:
+    - name: http
+      port: 8080        # port du service dans le cluster
+      targetPort: 8080  # port du container
+      nodePort: 30080   # port exposé sur le noeud (entre 30000 et 32767)

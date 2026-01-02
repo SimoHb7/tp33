@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-k8s-config
+  namespace: lab-k8s
+data:
+  app.message: "Hello from ConfigMap in Kubernetes"
